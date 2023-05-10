@@ -1,0 +1,192 @@
+/* fonts:
+font-family: 'Caveat', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F6ECB6;
+}
+
+a {
+  display: inline;
+  padding: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 65px;
+  font-weight: 600;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 15px;
+}
+
+
+/* different style for the first word */
+.firstWord {
+  font-family: 'Sacramento', cursive;
+  font-size: 28px;
+  font-weight: 600;
+}
+/* the underlining div for headings */
+.lineSplit {
+  background-color:#3E3C28;
+    border-radius:2px;
+    width: 20vw;
+    height:2px;
+    margin:50px auto 60px;
+}
+
+
+/* navbar section */
+.navbar {
+  background-color: #00143D;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* intro part */
+.introPart {
+  height: 100vh;
+  padding-top: 30vh;
+  color: white;
+  background-color: #00143D;
+  /* background-image: url('https://scontent.fblr22-1.fna.fbcdn.net/v/t1.6435-9/72448667_1245602325649200_4627794804372144128_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=84a396&_nc_ohc=kN4rJ5nKBHAAX8SlRuM&_nc_ht=scontent.fblr22-1.fna&oh=00_AT-1olFznHZQ6TA37ae2QLAHLMoKBG4dGdkVdKopxE6FWg&oe=623111BF'); */
+  background-image: url('image\\laptopView2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.name {
+  font-size: 10vw;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.hey {
+  margin-top: 0;
+}
+
+/* about me */
+.aboutMe {
+  padding: 28vh 27vw 33vh;
+}
+
+
+
+
+/* InterestsNHobbies */
+.InterestsNHobbies {
+  padding: 13vh 0 10vh;
+}
+
+.InterestsNHobbies h3 {
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+
+.InterestsNHobbies p {
+  text-align: justify;
+}
+
+.guitar,.music {
+  margin-bottom: 80px;
+}
+
+.guitarPara, .moviePara {
+  margin-left: 120px;
+}
+
+.musicPara{
+  margin-right: 120px;
+}
+
+/* story so far */
+.MyStorySoFar {
+  text-align: center;
+}
+
+.MyStorySoFar h2 {
+  margin-top: 50px;
+}
+
+.MyStorySoFar h3 {
+  height:500px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top: 170px;
+  color:white;
+  font-size: 100px;
+  font-family: 'Caveat', cursive;
+}
+
+.MyStorySoFar p {
+  padding: 90px 300px;
+}
+
+.kendrVidya h3 {
+    background-image:url('image\\kv.jpg');
+}
+
+.claret h3 {
+  background-image: url('image\\claret.jpg');
+}
+
+.smvit h3 {
+  background-image: url('image\\SMVIT1.jpg');
+}
+
+.fromHere h3 {
+  background-image: url('image\\future1.jpg');
+  /* background-size: cover; */
+}
+
+.signing{
+  transform: rotate(350deg);
+  font-weight: 100;
+}
+
+/* For Mobile screens */
+@media only screen and (max-width : 980px) and (orientation : portrait) {
+  .introPart {
+    background-color: #00143D;
+    background-image: url('image\\mobileView1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+
+    height: 63vh;
+  }
+
+  .name {
+    font-size: 20vw;
+  }
+
+  .hey {
+    font-size: 7vw;
+  }
+
+  .InterestsNHobbies {
+    padding: 13vh 0 10vh;
+  }
+}
